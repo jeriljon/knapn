@@ -1,0 +1,63 @@
+.body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 2em;
+  color: #0275d8; /* A shade of blue for primary headings */
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #025aa5; /* A slightly darker shade of blue for secondary headings */
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+li::before {
+  content: '•';
+  color: #0275d8; /* Matching the primary heading color for consistency */
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+li strong {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+}

@@ -1,0 +1,27 @@
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
+    height: 10vh; /* 10% of viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    justify-content: left;
+  }
+
+  .content {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    justify-content: left;
+  }
+
+
+  
